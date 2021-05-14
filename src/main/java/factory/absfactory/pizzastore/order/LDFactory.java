@@ -12,6 +12,6 @@ public class LDFactory implements AbsFactory{
         } else if (orderType.equals("pepper")){
             pizza = new LDPepperPizza();
         }
-        return null;
+        return pizza;
     }
 }

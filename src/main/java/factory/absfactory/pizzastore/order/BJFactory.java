@@ -14,6 +14,6 @@ public class BJFactory implements AbsFactory{
         } else if (orderType.equals("pepper")){
             pizza = new BJPepperPizza();
         }
-        return null;
+        return pizza;
     }
 }
