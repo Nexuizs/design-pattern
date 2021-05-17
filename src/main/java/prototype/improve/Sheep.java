@@ -8,6 +8,8 @@ public class Sheep implements Cloneable {
 
     private String color;
 
+    public Sheep friend; //是对象，克隆会如何处理
+
     public Sheep(String name, int age, String color) {
         this.name = name;
         this.age = age;
